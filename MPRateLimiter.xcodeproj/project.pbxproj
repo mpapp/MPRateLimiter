@@ -161,11 +161,11 @@
 			};
 			buildConfigurationList = 5F57FB201CCC53F600EBF750 /* Build configuration list for PBXProject "MPRateLimiter" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 5F57FB1C1CCC53F600EBF750;
 			productRefGroup = 5F57FB271CCC53F600EBF750 /* Products */;
