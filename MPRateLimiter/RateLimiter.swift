@@ -58,7 +58,7 @@ open class RateLimiter {
             self.nextAllowedExecutionTimes[key] = Date(timeIntervalSinceNow: rateLimit)
         }
         
-        print("Now: \(now), next: \(self.nextAllowedExecutionTimes[key])")
+        print("Now: \(now), next: \(String(describing: self.nextAllowedExecutionTimes[key]))")
         
         try closure()
     }
