@@ -10,7 +10,7 @@
 		5F57FB2A1CCC53F600EBF750 /* MPRateLimiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F57FB291CCC53F600EBF750 /* MPRateLimiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F57FB311CCC53F600EBF750 /* MPRateLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F57FB261CCC53F600EBF750 /* MPRateLimiter.framework */; };
 		5F57FB361CCC53F700EBF750 /* MPRateLimiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57FB351CCC53F700EBF750 /* MPRateLimiterTests.swift */; };
-		5F57FB411CCC540600EBF750 /* RateLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57FB401CCC540600EBF750 /* RateLimiter.swift */; };
+		5F57FB411CCC540600EBF750 /* MPRateLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57FB401CCC540600EBF750 /* MPRateLimiter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +25,12 @@
 
 /* Begin PBXFileReference section */
 		5F57FB261CCC53F600EBF750 /* MPRateLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPRateLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F57FB291CCC53F600EBF750 /* MPRateLimiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPRateLimiter.h; sourceTree = "<group>"; };
+		5F57FB291CCC53F600EBF750 /* MPRateLimiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPRateLimiter.h; path = ../Sources/MPRateLimiter.h; sourceTree = "<group>"; };
 		5F57FB2B1CCC53F600EBF750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F57FB301CCC53F600EBF750 /* MPRateLimiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPRateLimiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F57FB351CCC53F700EBF750 /* MPRateLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPRateLimiterTests.swift; sourceTree = "<group>"; };
+		5F57FB351CCC53F700EBF750 /* MPRateLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MPRateLimiterTests.swift; path = ../Tests/MPRateLimiterTests/MPRateLimiterTests.swift; sourceTree = "<group>"; };
 		5F57FB371CCC53F700EBF750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F57FB401CCC540600EBF750 /* RateLimiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateLimiter.swift; sourceTree = "<group>"; };
+		5F57FB401CCC540600EBF750 /* MPRateLimiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPRateLimiter.swift; path = ../Sources/MPRateLimiter/MPRateLimiter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			children = (
 				5F57FB291CCC53F600EBF750 /* MPRateLimiter.h */,
 				5F57FB2B1CCC53F600EBF750 /* Info.plist */,
-				5F57FB401CCC540600EBF750 /* RateLimiter.swift */,
+				5F57FB401CCC540600EBF750 /* MPRateLimiter.swift */,
 			);
 			path = MPRateLimiter;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F57FB411CCC540600EBF750 /* RateLimiter.swift in Sources */,
+				5F57FB411CCC540600EBF750 /* MPRateLimiter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
